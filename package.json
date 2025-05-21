@@ -2,41 +2,9 @@
   "name": "vue-router-search",
   "version": "1.0.0",
   "description": "Vue 3 hooks for RESTful data fetching and route synchronization",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "vite build",
-    "test": "vitest",
-    "prepublishOnly": "npm run build",
-    "prepare": "npm run build"
-  },
-  "keywords": [
-    "vue",
-    "vue3",
-    "route-sync",
-    "restful",
-    "hooks",
-    "typescript",
-    "vue-router"
-  ],
   "author": "Zeongit",
   "license": "MIT",
-  "dependencies": {
-    "lodash-es": "^4.17.21",
-    "vue": "^3.2.0",
-    "vue-router": "^4.0.0"
-  },
-  "devDependencies": {
-    "@types/lodash-es": "^4.17.12",
-    "typescript": "^5.0.0",
-    "vite": "^5.0.0",
-    "vite-plugin-dts": "^3.0.0",
-    "vitest": "^1.0.0"
-  },
-  "files": [
-    "dist", "LICENSE", "README.md"
-  ],
+  "homepage": "https://github.com/fuzeongit/vue-router-search#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fuzeongit/vue-router-search.git"
@@ -44,5 +12,30 @@
   "bugs": {
     "url": "https://github.com/fuzeongit/vue-router-search/issues"
   },
-  "homepage": "https://github.com/fuzeongit/vue-router-search#readme"
+  "keywords": ["vue", "vue3", "route-sync", "restful", "hooks", "typescript", "vue-router"],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "vite build",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "lodash-es": "^4.17.21",
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "lodash-es": "^4.17.21",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.0.0",
+    "vitest": "^1.0.0",
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0"
+  }
 }
