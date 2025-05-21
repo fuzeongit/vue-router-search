@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./src/index.ts",
-      name: "VueRouteSync",
+      name: "VueRouteSearch",
       fileName: "index",
       formats: ["es", "cjs"],
     },
